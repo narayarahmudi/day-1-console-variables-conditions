@@ -2,6 +2,15 @@
 I already know HTML and CSS. This is my first day learning JavaScript, and it's giving me a headache to be honest, but I'm still enthusiastic and won't give up
 
 ### English Version Translate
+# Day 1 - Console, Variables, Conditions
+
+I already know HTML and CSS. This is my first day learning JavaScript, and it's giving me a headache to be honest, but I'm still enthusiastic and won't give up.
+
+---
+
+## English Version
+
+```javascript
 let number1 = 12;
 let number2 = 5;
 
@@ -27,7 +36,6 @@ if (examScore >= 70) {
 let result = (examScore >= 60) ? 'Pass' : 'Fail';
 console.log(result);
 
-
 // NEXT
 let age = 19;
 if (age >= 17) {
@@ -45,6 +53,9 @@ if (score >= 90) {
 } else if (score >= 70) {
     console.log('Grade C');
 } else {
+    console.log('Grade D');
+}
+
     console.log('Grade D');
 }
 
